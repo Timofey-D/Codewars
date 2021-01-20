@@ -12,7 +12,7 @@ vector<string> solution(const string &s) {
         for (int i = 0; i < result.size(); i++) {
                 part += result[i];
                 if ((i + 1) % 2 == 0) {
-                        res.push_back(part);;
+                        res.push_back(part);
                         part = "";
                 }
         }
